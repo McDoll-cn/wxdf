@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# CMake / 构建产物（示例项目由 wxdf.py 生成，不应入库）
+build/
+cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+*.swp
+.DS_Store
