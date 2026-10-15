@@ -17,7 +17,7 @@ import stat
 import subprocess
 import sys
 
-VERSION = "0.06"
+VERSION = "0.07"
 
 PLACEHOLDER = "${project-name}$"
 
@@ -41,7 +41,7 @@ SRC_CMAKE = """set(SRC_FILES
 
 add_subdirectory(frame)
 
-add_executable(${PROJECT_NAME} 
+add_executable(${PROJECT_NAME} WIN32
         ${SRC_FILES}
         ${FRAME_SRC_FILES}
 )

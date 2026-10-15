@@ -1,0 +1,1 @@
+修改源文件wxdf.py中的错误, 在第44行“加入add_executable(${PROJECT_NAME} ...)"处添加 WIN32 编译条件，修复windows下无法正确编译的问题。
